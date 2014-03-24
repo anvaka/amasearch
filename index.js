@@ -17,5 +17,6 @@ app.get('/', function(req, res){
   });
 });
 
-app.listen(3001);
-console.log('Amazon API listening on port 3001');
+var port = process.env.PORT || 3001;
+app.listen(port);
+console.log('Amazon API listening on port ' + port);
