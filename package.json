@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "amazon-product-api": "0.0.5",
+    "express": "^3.5.0"
+  }
+}
